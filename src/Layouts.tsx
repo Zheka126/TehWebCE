@@ -1,7 +1,9 @@
 import { Layout, Menu, Breadcrumb, Card } from 'antd';
 import { CustomForm } from './components/CustomForm';
+import { IUser } from './components/interfaces';
 
 const { Header, Content, Footer } = Layout;
+
 const tabs: Array<String> = ['First', 'Second', 'Third', 'Secret'];
 
 export const HeaderLayout = () => {
@@ -22,7 +24,19 @@ export const HeaderLayout = () => {
   );
 };
 
+let user: IUser = {
+  id: '1',
+  nickname: 'jake',
+  password: 'pass',
+  email: 'email@list.ru',
+  phone: '+3732456732',
+  comment: 'yeah boy',
+  gender: 'Len',
+  adress: 'micurina 19/71 ap.72'
+};
+
 export const MainLayout = () => {
+  console.log(user);
   return (
     <Content style={{ padding: '0 50px' }}>
       <Breadcrumb style={{ margin: '16px 0' }}>

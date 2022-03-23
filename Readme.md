@@ -11,6 +11,9 @@ Initialized React-app with typescript configuration.
 Download libraries MOBX.
 Put out personal data on home page.
 
+### Lab3
+Created Custom Form.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
