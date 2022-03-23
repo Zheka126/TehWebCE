@@ -1,14 +1,17 @@
 import React from 'react';
+import { Layout } from 'antd';
+import { HeaderLayout, MainLayout, FooterLayout } from './Layouts';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Cucer Eugen</h1>
-        <h3>CR-193</h3>
-      </header>
-    </div>
+    <>
+      <Layout className="layout">
+        <HeaderLayout />
+        <MainLayout />
+        <FooterLayout />
+      </Layout>
+    </>
   );
 }
 
