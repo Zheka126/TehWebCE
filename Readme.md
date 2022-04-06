@@ -12,7 +12,13 @@ Download libraries MOBX.
 Put out personal data on home page.
 
 ### Lab3
-Created Custom Form.
+Created Custom Form. + interfaces.
+
+### Lab4
+Added page switch mechanism, based on SPA.
+
+### Lab5
+Work with local storage, using MOBX.
 
 # Getting Started with Create React App
 
