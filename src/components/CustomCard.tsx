@@ -45,10 +45,10 @@ export const CustomCards = observer(
         <Checkbox
           defaultChecked={available}
           checked={available}
-          onChange={(e) => changeAvailable(e.target.checked)}
+          // onChange={(e) => changeAvailable(e.target.checked)}
         />
         <p></p>
-        <Button onClick={() => addToList()}>Submit</Button>
+        {/* <Button onClick={() => addToList()}>Submit</Button> */}
       </Card>
     );
   }
