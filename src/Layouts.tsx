@@ -1,10 +1,11 @@
 import { Layout, Menu, Breadcrumb, Card } from 'antd';
-import { CustomForm } from './components/CustomForm';
+import { AuthFrom } from './components/AuthForm';
+// import { CustomForm } from './components/CustomForm';
 import { IUser } from './components/interfaces';
 
 const { Header, Content, Footer } = Layout;
 
-const tabs: Array<String> = ['First', 'Second', 'Third', 'Secret'];
+const tabs: Array<String> = ['Form', 'Cards', 'Third', 'Secret'];
 
 export const HeaderLayout = () => {
   return (
@@ -32,7 +33,7 @@ let user: IUser = {
   phone: '+3732456732',
   comment: 'yeah boy',
   gender: 'Len',
-  adress: 'micurina 19/71 ap.72'
+  adress: 'micurina 19/71 ap.72',
 };
 
 export const MainLayout = () => {
@@ -45,7 +46,8 @@ export const MainLayout = () => {
         <Breadcrumb.Item>App</Breadcrumb.Item>
       </Breadcrumb>
       <Card bordered={false}>
-        <CustomForm />
+        {/* <CustomForm /> */}
+        <AuthFrom />
       </Card>
     </Content>
   );
